@@ -625,9 +625,7 @@ dialog h2{
     .actions{display:grid}
     .btn{text-align:center}
     .hero-photo{height:52svh;min-height:400px}
-    .sun{width:52px;
-        height:52px;
-        box-shadow:0 0 0 5px var(--cream)
+    
     }
     .section{padding:58px 0}
     .section h2{font-size:2.7rem}
