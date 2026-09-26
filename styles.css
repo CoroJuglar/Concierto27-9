@@ -557,6 +557,16 @@ dialog h2{
     opacity:.7
 }
 
+.mainMenu{visibility: collapse;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    a{
+    text-decoration: none;
+}
+    
+}
 
 @media(max-width:900px){
     .wrap{width:min(100% - 32px,760px)}
@@ -597,6 +607,8 @@ dialog h2{
     .socials{width:100%;justify-content:center}
 }
 
+
+
 @media(max-width:560px){
     .wrap{width:calc(100% - 28px)}
     .nav{height:74px;
@@ -625,10 +637,15 @@ dialog h2{
     .actions{display:grid}
     .btn{text-align:center}
     .hero-photo{height:52svh;min-height:400px}
-    
+    .sun{width:52px;
+        height:52px;
+        box-shadow:0 0 0 5px var(--cream)
+    }
     .section{padding:58px 0}
     .section h2{font-size:2.7rem}
-    .lead{font-size:1.05rem}
+    .lead{font-size:1.05rem;
+            margin: 3%;
+    }
     .photo-band{margin-top:40px;
         height:240px;
         border-radius:70px 70px 0 0
@@ -651,6 +668,9 @@ dialog h2{
     }
     dialog{padding:38px 24px}
     .footer-inner{gap:12px
+    }
+    .mainMenu{
+        visibility: visible;
     }
 }
 
