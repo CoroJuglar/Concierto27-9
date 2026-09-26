@@ -254,16 +254,6 @@ a{
     object-fit:cover
 }
 
-.sun{
-    position:absolute;
-    width:82px;
-    height:82px;
-    border-radius:50%;
-    background:var(--orange);
-    right:8%;
-    top:5%;
-    box-shadow:0 0 0 8px var(--cream)
-}
 
 .section{
     padding:105px 0
